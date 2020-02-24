@@ -83,6 +83,9 @@ hr {
   .about-content {
     width: 80vw;
   }
+  .about-content p {
+    line-height: 3.5;
+  }
 }
 /* CONTACT  */
 .contact-content i {
