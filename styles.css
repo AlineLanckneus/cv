@@ -30,7 +30,7 @@ h1 {
   font-size: var(--heading-1);
   font-family: 'Open Sans-Black', sans-serif;
   letter-spacing: 0.1rem;
-  padding: 9rem 0;
+  padding: 5rem 0;
 }
 h2 {
   font-size: var(--heading-2);
@@ -41,7 +41,9 @@ h3 {
   font-size: var(--heading-3);
   font-family: 'Open Sans', sans-serif;
 }
-
+a {
+  color: inherit;
+}
 p {
   font-size: var(--paragraph);
   line-height: 2;
@@ -67,7 +69,7 @@ hr {
   margin: auto;
 }
 #intro-text {
-  margin: 15% auto;
+  padding: 2rem;
 }
 #intro-text p {
   color: var(--grey-color);
