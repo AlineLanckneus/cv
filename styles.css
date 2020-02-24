@@ -5,7 +5,7 @@
   --heading-1: calc(36px + 2vw);
   --heading-2: calc(20px + 1.5vw);
   --heading-3: calc(20px + 1vw);
-  --paragraph: calc(16px + 0.4vw);
+  --paragraph: calc(16px + 0.3vw);
   --yellow: #ffa726;
   --bg-color: #212121;
   --white-color: #eceff1;
@@ -30,7 +30,7 @@ h1 {
   font-size: var(--heading-1);
   font-family: 'Open Sans-Black', sans-serif;
   letter-spacing: 0.1rem;
-  padding: 5rem 0;
+  padding: 2vw 0;
 }
 h2 {
   font-size: var(--heading-2);
@@ -46,7 +46,7 @@ a {
 }
 p {
   font-size: var(--paragraph);
-  line-height: 2;
+  line-height: 1.5;
 }
 hr {
   border: none;
